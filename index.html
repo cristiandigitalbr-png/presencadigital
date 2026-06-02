@@ -144,7 +144,7 @@
 
   /* ── SOBRE ── */
   .sobre-wrap { background:var(--off); padding:100px 52px; }
-  .sobre { max-width:1060px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
+  .sobre { max-width:1060px; margin:0 auto; display:flex; justify-content:center; }
   .sobre-visual { position:relative; }
   .sobre-card-bg {
     position:absolute; bottom:-16px; right:-16px;
@@ -265,14 +265,14 @@
   @media(max-width:900px){
     nav { padding:0 20px; }
     .nav-links { display:none; }
-    .hero-content { padding:20px 24px; }
-    .sobre-wrap { padding:60px 24px; }
+    .hero { min-height:auto; } .hero-content { padding:46px 24px; }
+    .sobre-wrap { padding:36px 24px; }
     .sobre { grid-template-columns:1fr; gap:44px; }
-    .sobre-wrap { padding:60px 24px; }
+    .sobre-wrap { padding:36px 24px; }
     .sobre { grid-template-columns:1fr; gap:44px; }
-    .servicios-wrap { padding:60px 24px; }
+    .servicios-wrap { padding:36px 24px; }
     .servicios-grid { grid-template-columns:1fr; }
-    .banner-wrap { padding:60px 24px; }
+    .banner-wrap { padding:36px 24px; }
   }
 </style>
 </head>
@@ -324,26 +324,10 @@
 <!-- SOBRE -->
 <div class="sobre-wrap" id="sobre">
   <div class="sobre">
-    <div class="sobre-visual">
-      <div class="sobre-card-bg"></div>
-      <div class="sobre-card">
-        <p class="sobre-card-quote">
-          "Seu próximo cliente está pesquisando agora.<br>
-          <span>A questão é: ele te encontra?</span>"
-        </p>
-        <div class="sobre-card-divider"></div>
-        <ul class="sobre-card-list">
-          <li>Presença digital que transmite confiança</li>
-          <li>Estratégias pensadas para advogados</li>
-          <li>Mais visibilidade. Mais consultas. Mais clientes.</li>
-          <li>Você foca no direito. Nós cuidamos da sua imagem.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="sobre-text">
+    <div class="sobre-text" style="max-width:680px; margin:0 auto; text-align:center;">
       <div class="section-label">Quem somos</div>
       <h2 class="section-title">Marketing feito para quem entende de direito</h2>
-      <div class="section-divider"></div>
+      <div class="section-divider" style="margin:0 auto 28px;"></div>
       <p class="sobre-highlight">"Confiança não se declara — se constrói. E começa antes mesmo do primeiro contato."</p>
       <p>A Presença Jurídica nasceu com um propósito claro: ajudar advogados a ocupar o espaço digital que merecem. Sabemos que o mundo jurídico exige seriedade, discrição e autoridade — e é exatamente isso que transmitimos em cada estratégia.</p>
       <p>Desenvolvemos sites, conteúdo e campanhas pensadas exclusivamente para escritórios de advocacia, com uma visão que une estética premium, comunicação estratégica e resultados reais.</p>
