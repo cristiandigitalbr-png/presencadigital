@@ -141,45 +141,6 @@
   .section-title { font-family:'Playfair Display', serif; font-size:clamp(26px,3.5vw,46px); font-weight:700; color:var(--dark); line-height:1.1; margin-bottom:14px; letter-spacing:-0.3px; }
   .section-divider { width:36px; height:1px; background:var(--gold); margin-bottom:28px; opacity:0.6; }
 
-  /* ── SOBRE ── */
-  .sobre-wrap { background:var(--white); padding:100px 52px; }
-  .sobre { max-width:1060px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
-  .sobre-visual {
-    position:relative;
-  }
-  .sobre-card-bg {
-    position:absolute; bottom:-16px; right:-16px;
-    width:100%; height:100%; background:var(--gold-pale); border-radius:2px; z-index:0;
-  }
-  .sobre-card {
-    position:relative; z-index:1;
-    background:var(--navy); border-radius:2px;
-    padding:44px 40px;
-    box-shadow:0 24px 60px rgba(8,15,30,0.15);
-  }
-  .sobre-card-quote {
-    font-family:'Playfair Display', serif;
-    font-size:22px; font-style:italic; font-weight:400;
-    color:white; line-height:1.5; margin-bottom:28px;
-  }
-  .sobre-card-quote span { color:var(--gold-light); }
-  .sobre-card-divider { width:32px; height:1px; background:var(--gold); opacity:0.4; margin-bottom:28px; }
-  .sobre-card-list { list-style:none; display:flex; flex-direction:column; gap:12px; }
-  .sobre-card-list li {
-    display:flex; align-items:center; gap:10px;
-    font-size:13px; color:rgba(255,255,255,0.6); font-weight:400; letter-spacing:.3px;
-  }
-  .sobre-card-list li::before {
-    content:''; width:6px; height:6px; border-radius:50%;
-    background:var(--gold); flex-shrink:0; opacity:.8;
-  }
-
-  .sobre-text p { font-size:15px; line-height:1.9; color:var(--gray); margin-bottom:18px; font-weight:300; }
-  .sobre-highlight {
-    font-family:'Playfair Display', serif; font-size:19px; font-style:italic;
-    color:var(--navy); line-height:1.5; margin-bottom:22px; font-weight:400;
-  }
-
   /* ── SERVICIOS ── */
   .servicios-wrap { background:var(--navy); padding:90px 52px; position:relative; overflow:hidden; }
   .servicios-wrap::before {
@@ -319,36 +280,6 @@
     </div>
   </div>
 </section>
-
-<!-- SOBRE -->
-<div class="sobre-wrap" id="sobre">
-  <div class="sobre">
-    <div class="sobre-visual">
-      <div class="sobre-card-bg"></div>
-      <div class="sobre-card">
-        <p class="sobre-card-quote">
-          "Seu próximo cliente está pesquisando agora.<br>
-          <span>A questão é: ele te encontra?</span>"
-        </p>
-        <div class="sobre-card-divider"></div>
-        <ul class="sobre-card-list">
-          <li>Presença digital que transmite confiança</li>
-          <li>Estratégias pensadas para advogados</li>
-          <li>Mais visibilidade. Mais consultas. Mais clientes.</li>
-          <li>Você foca no direito. Nós cuidamos da sua imagem.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="sobre-text">
-      <div class="section-label">Quem somos</div>
-      <h2 class="section-title">Marketing feito para quem entende de direito</h2>
-      <div class="section-divider"></div>
-      <p class="sobre-highlight">"Confiança não se declara — se constrói. E começa antes mesmo do primeiro contato."</p>
-      <p>A Presença Jurídica nasceu com um propósito claro: ajudar advogados a ocupar o espaço digital que merecem. Sabemos que o mundo jurídico exige seriedade, discrição e autoridade — e é exatamente isso que transmitimos em cada estratégia.</p>
-      <p>Desenvolvemos sites, conteúdo e campanhas pensadas exclusivamente para escritórios de advocacia, com uma visão que une estética premium, comunicação estratégica e resultados reais.</p>
-    </div>
-  </div>
-</div>
 
 <!-- SERVIÇOS -->
 <div class="servicios-wrap" id="servicos">
